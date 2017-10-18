@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AMapTest</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <bool name="View_Height">true</bool>
+    <bool name="View_Width">false</bool>
+</resources>

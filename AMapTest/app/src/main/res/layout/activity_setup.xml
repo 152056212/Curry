@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/rt_bk"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textSize="17dp"
+                android:textColor="#000"
+                android:layout_marginLeft="17dp"
+                android:layout_marginBottom="2dp"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="提醒设置"
+            android:layout_centerInParent="true"
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_centerInParent="true"
+            android:text="提醒方式"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/spinner_notifyMethod"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_border_top"
+            android:entries="@array/notifyMethod"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:text="到站提醒"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+        <Spinner
+            android:id="@+id/spinner_stepNotify"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_border_top"
+            android:entries="@array/stepNotify"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:text="刷新频率"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_refreshFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_border_top"
+            android:entries="@array/refreshFrequency"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp">
+       <Button
+           android:id="@+id/btn_save"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:text="保存设置"/>
+   </LinearLayout>
+
+</LinearLayout>

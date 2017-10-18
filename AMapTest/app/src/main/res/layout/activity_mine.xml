@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lmh.map.MineActivity"
+    android:orientation="vertical"
+    android:background="#efefef">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/rt_bk"
+                android:layout_marginTop="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textSize="17dp"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="个人中心"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/center_bg">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/head_img"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#fff"
+            >
+
+            <RelativeLayout
+                android:id="@+id/setup"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="提醒设置"
+                    android:textSize="17dp"
+                    android:textColor="#838383"/>
+            </RelativeLayout>
+            <Button
+                android:padding="10dp"
+                android:id="@+id/shezhi"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/tx"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:padding="10dp"
+                android:id="@+id/gonggao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="系统公告"
+                android:textSize="17dp"
+                android:drawableRight="@mipmap/arr_right"
+                android:textColor="#838383"
+                android:gravity="center_vertical"
+                android:background="#fff"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#fafafa" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:padding="10dp"
+                android:id="@+id/sug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="投诉建议"
+                android:textSize="17dp"
+                android:drawableRight="@mipmap/arr_right"
+                android:textColor="#838383"
+                android:gravity="center_vertical"
+                android:background="#fff"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#fafafa" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:padding="10dp"
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="关于我们"
+                android:textSize="17dp"
+                android:drawableRight="@mipmap/arr_right"
+                android:textColor="#838383"
+                android:gravity="center_vertical"
+                android:background="#fff"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#fafafa" />
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

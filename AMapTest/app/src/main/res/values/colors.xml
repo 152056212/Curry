@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLight">#56abe4</color>
+    <color name="colorDark">#9e9e9e</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorReturnBtn">#296ccc</color>
+    <color name="radiusFillColor">#5a5fe234</color>
+</resources>

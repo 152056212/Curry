@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true"
+    android:dither="true"
+    android:variablePadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:color="#999e9e9e"
+        android:state_pressed="true"
+        />
+    <item
+        android:color="#999e9e9e"
+        android:state_focused="true"
+        />
+    <item
+        android:color="#999e9e9e"
+        android:state_selected="true"
+        />
+    <item android:color="#00ffffff" />
+</selector>
