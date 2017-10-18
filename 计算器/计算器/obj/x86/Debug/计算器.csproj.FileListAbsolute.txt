@@ -1,0 +1,4 @@
+G:\Vs2010File\计算器\计算器\bin\Debug\计算器.exe
+G:\Vs2010File\计算器\计算器\bin\Debug\计算器.pdb
+G:\Vs2010File\计算器\计算器\obj\x86\Debug\计算器.exe
+G:\Vs2010File\计算器\计算器\obj\x86\Debug\计算器.pdb
