@@ -1,0 +1,7 @@
+G:\Vs2010File\GitManagerTest\DAL\bin\Debug\DAL.dll
+G:\Vs2010File\GitManagerTest\DAL\bin\Debug\DAL.pdb
+G:\Vs2010File\GitManagerTest\DAL\obj\Debug\DAL.dll
+G:\Vs2010File\GitManagerTest\DAL\obj\Debug\DAL.pdb
+G:\Vs2010File\GitManagerTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+G:\Vs2010File\GitManagerTest\DAL\bin\Debug\Model.dll
+G:\Vs2010File\GitManagerTest\DAL\bin\Debug\Model.pdb

@@ -1,0 +1,7 @@
+G:\Vs2010File\GitManagerTest\Model\bin\Debug\Model.dll
+G:\Vs2010File\GitManagerTest\Model\bin\Debug\Model.pdb
+G:\Vs2010File\GitManagerTest\Model\obj\Debug\Model.dll
+G:\Vs2010File\GitManagerTest\Model\obj\Debug\Model.pdb
+G:\Vs2010File\GitManagerTest\Model\obj\Debug\Model.BuyGoodsIn.resources
+G:\Vs2010File\GitManagerTest\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+G:\Vs2010File\GitManagerTest\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

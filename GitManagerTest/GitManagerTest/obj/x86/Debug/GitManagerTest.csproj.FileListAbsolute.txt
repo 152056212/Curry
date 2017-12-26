@@ -1,0 +1,1 @@
+G:\Vs2010File\GitManagerTest\GitManagerTest\bin\Debug\GitManagerTest.exe.config

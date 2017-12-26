@@ -1,0 +1,9 @@
+G:\Vs2010File\GitManagerTest\BAL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\BAL.dll
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\BAL.pdb
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\DAL.dll
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\Model.dll
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\DAL.pdb
+G:\Vs2010File\GitManagerTest\BAL\bin\Debug\Model.pdb
+G:\Vs2010File\GitManagerTest\BAL\obj\Debug\BAL.dll
+G:\Vs2010File\GitManagerTest\BAL\obj\Debug\BAL.pdb
